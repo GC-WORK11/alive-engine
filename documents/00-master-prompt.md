@@ -14,6 +14,14 @@ Models are NOT in git (>100MB). Fetch them:
   ALIVE_REPO=GC-WORK11/alive-engine ./models/fetch.sh   (gh auth required)
 Verify: sha256sum -c models/SHA256SUMS
 
+BUILD HISTORY (the true spec — read when confused):
+  ALIVE_REPO=GC-WORK11/alive-engine ./context/fetch.sh
+  → conversation-*.txt: prior agent transcript, user prompts marked ❯.
+    READ TAIL-TO-HEAD for chronological intent (14K lines).
+  → trajectory-*.json (89MB): raw Muse trajectory, parse selectively.
+  The transcript explains WHY the code is shaped this way — rejected
+  directions, UI demands, and every bug already fixed once.
+
 ═══════════════════════════════════════════════════════════════════════
 PART 1 — WHAT THE PRODUCT IS
 ═══════════════════════════════════════════════════════════════════════
