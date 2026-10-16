@@ -1,0 +1,26 @@
+{
+  "name": "csl-command-v0",
+  "note": "Tier C starter battery: 20 command phrases, Chinese gloss labels. Needs native CSL signer calibration; target >=95% top-1 after per-user templates.",
+  "phrases": [
+    "打开浏览器",
+    "打开邮件",
+    "搜索 今天天气",
+    "找文件 季度报告",
+    "回复是",
+    "回复否",
+    "存档",
+    "复制",
+    "截图",
+    "输入文字 大家好",
+    "撤销",
+    "取消",
+    "确认",
+    "命令模式",
+    "听写模式",
+    "谢谢",
+    "你好",
+    "帮助",
+    "会议",
+    "今天"
+  ]
+}

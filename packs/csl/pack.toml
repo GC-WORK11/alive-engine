@@ -1,0 +1,8 @@
+id = "csl"
+display_name = "Chinese Sign Language (简体命令集)"
+tier = "C"
+version = "0.1.0"
+
+# Tier C starter, honest scope: motion-distinct command grammar (swipes, shake,
+# circle, push) with Chinese gloss labels. NOT native CSL grammar — that needs
+# a trained encoder + native-signer corpus (M1+). Per-user calibration required.

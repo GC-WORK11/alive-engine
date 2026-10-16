@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  overflow: hidden;
+}
+
+.orb-stage {
+  position: fixed;
+  inset: 0;
+  background: transparent;
+}
+
+.orb-fill {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}

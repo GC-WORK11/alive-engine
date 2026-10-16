@@ -1,0 +1,17 @@
+{
+  "intents": [
+    {"intent": "reply_email", "action": "draft_reply", "risk_tier": 3, "slots": ["person", "body"], "patterns": ["回复是", "回复否"]},
+    {"intent": "archive_thread", "action": "archive", "risk_tier": 2, "slots": ["thread"], "patterns": ["存档"]},
+    {"intent": "open_app", "action": "open_app", "risk_tier": 1, "slots": ["app"], "patterns": ["打开浏览器", "打开邮件"]},
+    {"intent": "open_url", "action": "open_url", "risk_tier": 1, "slots": ["url"], "patterns": []},
+    {"intent": "web_search", "action": "browser_search", "risk_tier": 1, "slots": ["query"], "patterns": ["搜索"]},
+    {"intent": "file_search", "action": "file_search", "risk_tier": 1, "slots": ["query", "root"], "patterns": ["找文件"]},
+    {"intent": "copy_text", "action": "clipboard_copy", "risk_tier": 1, "slots": ["text"], "patterns": ["复制"]},
+    {"intent": "take_screenshot", "action": "screenshot", "risk_tier": 1, "slots": [], "patterns": ["截图"]},
+    {"intent": "type_text", "action": "type_text", "risk_tier": 1, "slots": ["text"], "patterns": ["输入文字"]},
+    {"intent": "undo_last", "action": "undo", "risk_tier": 1, "slots": [], "patterns": ["撤销"]},
+    {"intent": "confirm", "action": "confirm", "risk_tier": 1, "slots": [], "patterns": ["确认"]},
+    {"intent": "cancel", "action": "cancel", "risk_tier": 1, "slots": [], "patterns": ["取消"]},
+    {"intent": "switch_mode", "action": "switch_mode", "risk_tier": 1, "slots": ["mode"], "patterns": ["命令模式", "听写模式"]}
+  ]
+}

@@ -1,0 +1,36 @@
+[package]
+name = "alive"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "ALive desktop app: Tauri shell, pipeline thread, commands, frame protocol"
+
+[[bin]]
+name = "alive"
+path = "src/main.rs"
+
+[[bin]]
+name = "alive-demo"
+path = "src/bin/demo.rs"
+
+[build-dependencies]
+tauri-build = "2"
+
+[dependencies]
+tauri = { version = "2", features = ["custom-protocol"] }
+serde.workspace = true
+serde_json.workspace = true
+thiserror.workspace = true
+tokio.workspace = true
+image = "0.25"
+alive-core.workspace = true
+alive-journal.workspace = true
+alive-temporal.workspace = true
+alive-track.workspace = true
+alive-sign.workspace = true
+alive-intent.workspace = true
+alive-act.workspace = true
+alive-ipc.workspace = true
+alive-perception = { workspace = true, features = ["onnx"] }
+tauri-plugin-global-shortcut = "2"
+log = "0.4.34"

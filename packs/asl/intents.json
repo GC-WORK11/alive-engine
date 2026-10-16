@@ -1,0 +1,17 @@
+{
+  "intents": [
+    {"intent": "reply_email", "action": "draft_reply", "risk_tier": 3, "slots": ["person", "body"], "patterns": ["REPLY YES", "REPLY NO"]},
+    {"intent": "archive_thread", "action": "archive", "risk_tier": 2, "slots": ["thread"], "patterns": ["ARCHIVE"]},
+    {"intent": "open_app", "action": "open_app", "risk_tier": 1, "slots": ["app"], "patterns": ["OPEN BROWSER", "OPEN MAIL"]},
+    {"intent": "open_url", "action": "open_url", "risk_tier": 1, "slots": ["url"], "patterns": []},
+    {"intent": "web_search", "action": "browser_search", "risk_tier": 1, "slots": ["query"], "patterns": ["SEARCH"]},
+    {"intent": "file_search", "action": "file_search", "risk_tier": 1, "slots": ["query", "root"], "patterns": ["FIND FILE"]},
+    {"intent": "copy_text", "action": "clipboard_copy", "risk_tier": 1, "slots": ["text"], "patterns": ["COPY"]},
+    {"intent": "take_screenshot", "action": "screenshot", "risk_tier": 1, "slots": [], "patterns": ["SCREENSHOT"]},
+    {"intent": "type_text", "action": "type_text", "risk_tier": 1, "slots": ["text"], "patterns": ["TYPE IT"]},
+    {"intent": "undo_last", "action": "undo", "risk_tier": 1, "slots": [], "patterns": ["UNDO"]},
+    {"intent": "confirm", "action": "confirm", "risk_tier": 1, "slots": [], "patterns": ["CONFIRM"]},
+    {"intent": "cancel", "action": "cancel", "risk_tier": 1, "slots": [], "patterns": ["CANCEL"]},
+    {"intent": "switch_mode", "action": "switch_mode", "risk_tier": 1, "slots": ["mode"], "patterns": ["ACTION MODE", "DICTATION MODE"]}
+  ]
+}

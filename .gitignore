@@ -1,0 +1,24 @@
+# Rust
+/target/
+**/target/
+# Node
+node_modules/
+dist/
+dist-ssr/
+*.local
+# Models (large binaries; fetch via script, never commit)
+models/*.onnx
+models/*.onnx.data
+models/*.task
+# Editor / OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+# Journal + local state
+*.jsonl
+alive-state/
+
+# Conversation exports / agent history (local-only, never ship)
+conversation-*.txt
+trajectory-*.json

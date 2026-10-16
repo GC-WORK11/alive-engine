@@ -1,0 +1,12 @@
+[package]
+name = "alive-ipc"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "ALive IPC DTOs shared between Rust core and the Tauri frontend"
+
+[dependencies]
+serde.workspace = true
+serde_json.workspace = true
+thiserror.workspace = true
+alive-journal.workspace = true

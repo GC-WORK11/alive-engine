@@ -1,0 +1,26 @@
+{
+  "name": "asl-command-v0",
+  "note": "M1 verification battery: 20 held-out command phrases, internal signer. Target >=95% top-1 after calibration.",
+  "phrases": [
+    "OPEN BROWSER",
+    "OPEN MAIL",
+    "SEARCH weather today",
+    "FIND FILE quarterly report",
+    "REPLY YES",
+    "REPLY NO",
+    "ARCHIVE",
+    "COPY",
+    "SCREENSHOT",
+    "TYPE IT hello team",
+    "UNDO",
+    "CANCEL",
+    "CONFIRM",
+    "ACTION MODE",
+    "DICTATION MODE",
+    "THANK YOU",
+    "PLEASE SEND",
+    "MEETING TOMORROW",
+    "HELP",
+    "HELLO"
+  ]
+}

@@ -1,0 +1,16 @@
+[package]
+name = "alive-act"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "ALive action layer: T1 OS-native tools, availability probing, dry-run, verification"
+
+[dependencies]
+serde.workspace = true
+serde_json.workspace = true
+thiserror.workspace = true
+tokio.workspace = true
+alive-journal.workspace = true
+
+[dev-dependencies]
+tempfile = "3"

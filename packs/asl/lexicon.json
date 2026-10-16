@@ -1,0 +1,30 @@
+{
+  "entries": [
+    {"gloss": "REPLY YES", "aliases": ["REPLY AFFIRMATIVE"], "kind": "command", "intent": "reply_email"},
+    {"gloss": "REPLY NO", "aliases": ["REPLY NEGATIVE"], "kind": "command", "intent": "reply_email"},
+    {"gloss": "ARCHIVE", "aliases": ["ARCHIVE IT", "FILE AWAY"], "kind": "command", "intent": "archive_thread"},
+    {"gloss": "OPEN BROWSER", "aliases": ["BROWSER"], "kind": "command", "intent": "open_app"},
+    {"gloss": "OPEN MAIL", "aliases": ["MAIL", "EMAIL"], "kind": "command", "intent": "open_app"},
+    {"gloss": "SEARCH", "aliases": ["SEARCH WEB", "LOOK UP"], "kind": "command", "intent": "web_search"},
+    {"gloss": "FIND FILE", "aliases": ["FIND", "FILE"], "kind": "command", "intent": "file_search"},
+    {"gloss": "COPY", "aliases": ["COPY THAT"], "kind": "command", "intent": "copy_text"},
+    {"gloss": "SCREENSHOT", "aliases": ["CAPTURE", "SNAP"], "kind": "command", "intent": "take_screenshot"},
+    {"gloss": "TYPE IT", "aliases": ["TYPE"], "kind": "command", "intent": "type_text"},
+    {"gloss": "UNDO", "aliases": ["OOPS", "REVERT"], "kind": "command", "intent": "undo_last"},
+    {"gloss": "CONFIRM", "aliases": ["YES DO IT", "DO IT"], "kind": "control", "intent": "confirm"},
+    {"gloss": "CANCEL", "aliases": ["STOP", "NEVERMIND", "NEVER MIND"], "kind": "control", "intent": "cancel"},
+    {"gloss": "ACTION MODE", "aliases": ["COMMAND MODE"], "kind": "control", "intent": "switch_mode"},
+    {"gloss": "DICTATION MODE", "aliases": ["TYPE MODE", "WRITE MODE"], "kind": "control", "intent": "switch_mode"},
+    {"gloss": "THANK YOU", "aliases": ["THANKS"], "kind": "dictation"},
+    {"gloss": "PLEASE", "aliases": [], "kind": "dictation"},
+    {"gloss": "HELLO", "aliases": ["HI"], "kind": "dictation"},
+    {"gloss": "YES", "aliases": ["YEAH"], "kind": "dictation"},
+    {"gloss": "NO", "aliases": ["NOPE"], "kind": "dictation"},
+    {"gloss": "HELP", "aliases": [], "kind": "dictation"},
+    {"gloss": "MEETING", "aliases": [], "kind": "dictation"},
+    {"gloss": "TODAY", "aliases": [], "kind": "dictation"},
+    {"gloss": "TOMORROW", "aliases": [], "kind": "dictation"},
+    {"gloss": "PLEASE SEND", "aliases": ["SEND IT"], "kind": "dictation"},
+    {"gloss": "FINGERSPELL", "aliases": ["SPELL"], "kind": "fingerspell"}
+  ]
+}

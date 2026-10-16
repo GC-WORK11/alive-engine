@@ -1,0 +1,40 @@
+[package]
+name = "alive-perception"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "ALive perception: capture sources, ROI crop, landmark extractor backends"
+
+[features]
+default = ["camera"]
+camera = ["dep:nokhwa"]
+onnx = ["dep:ort", "dep:ndarray"]
+
+[dependencies]
+serde.workspace = true
+serde_json.workspace = true
+thiserror.workspace = true
+image = "0.25"
+nokhwa = { version = "0.10", optional = true, features = ["input-v4l"] }
+ort = { version = "=2.0.0-rc.13", optional = true, features = ["ndarray"] }
+ndarray = { version = "0.17", optional = true }
+
+[dev-dependencies]
+tempfile = "3"
+alive-temporal.workspace = true
+
+[[example]]
+name = "pose_bench"
+required-features = ["onnx"]
+
+[[example]]
+name = "stage_prof"
+required-features = ["onnx"]
+
+[[example]]
+name = "crop_probe"
+required-features = ["onnx"]
+
+[[example]]
+name = "capture_bench"
+required-features = ["camera"]

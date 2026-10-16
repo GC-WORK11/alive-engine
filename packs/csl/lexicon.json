@@ -1,0 +1,30 @@
+{
+  "entries": [
+    {"gloss": "回复是", "aliases": ["REPLY YES", "REPLY AFFIRMATIVE"], "kind": "command", "intent": "reply_email"},
+    {"gloss": "回复否", "aliases": ["REPLY NO", "REPLY NEGATIVE"], "kind": "command", "intent": "reply_email"},
+    {"gloss": "存档", "aliases": ["ARCHIVE", "ARCHIVE IT", "FILE AWAY"], "kind": "command", "intent": "archive_thread"},
+    {"gloss": "打开浏览器", "aliases": ["OPEN BROWSER", "BROWSER"], "kind": "command", "intent": "open_app"},
+    {"gloss": "打开邮件", "aliases": ["OPEN MAIL", "MAIL", "EMAIL"], "kind": "command", "intent": "open_app"},
+    {"gloss": "搜索", "aliases": ["SEARCH", "SEARCH WEB", "LOOK UP"], "kind": "command", "intent": "web_search"},
+    {"gloss": "找文件", "aliases": ["FIND FILE", "FIND", "FILE"], "kind": "command", "intent": "file_search"},
+    {"gloss": "复制", "aliases": ["COPY", "COPY THAT"], "kind": "command", "intent": "copy_text"},
+    {"gloss": "截图", "aliases": ["SCREENSHOT", "CAPTURE", "SNAP"], "kind": "command", "intent": "take_screenshot"},
+    {"gloss": "输入文字", "aliases": ["TYPE IT", "TYPE"], "kind": "command", "intent": "type_text"},
+    {"gloss": "撤销", "aliases": ["UNDO", "OOPS", "REVERT"], "kind": "command", "intent": "undo_last"},
+    {"gloss": "确认", "aliases": ["CONFIRM", "YES DO IT", "DO IT"], "kind": "control", "intent": "confirm"},
+    {"gloss": "取消", "aliases": ["CANCEL", "STOP", "NEVERMIND", "NEVER MIND"], "kind": "control", "intent": "cancel"},
+    {"gloss": "命令模式", "aliases": ["ACTION MODE", "COMMAND MODE"], "kind": "control", "intent": "switch_mode"},
+    {"gloss": "听写模式", "aliases": ["DICTATION MODE", "TYPE MODE", "WRITE MODE"], "kind": "control", "intent": "switch_mode"},
+    {"gloss": "谢谢", "aliases": ["THANK YOU", "THANKS"], "kind": "dictation"},
+    {"gloss": "请", "aliases": ["PLEASE"], "kind": "dictation"},
+    {"gloss": "你好", "aliases": ["HELLO", "HI"], "kind": "dictation"},
+    {"gloss": "是", "aliases": ["YES", "YEAH"], "kind": "dictation"},
+    {"gloss": "否", "aliases": ["NO", "NOPE"], "kind": "dictation"},
+    {"gloss": "帮助", "aliases": ["HELP"], "kind": "dictation"},
+    {"gloss": "会议", "aliases": ["MEETING"], "kind": "dictation"},
+    {"gloss": "今天", "aliases": ["TODAY"], "kind": "dictation"},
+    {"gloss": "明天", "aliases": ["TOMORROW"], "kind": "dictation"},
+    {"gloss": "请发送", "aliases": ["PLEASE SEND", "SEND IT"], "kind": "dictation"},
+    {"gloss": "拼写", "aliases": ["FINGERSPELL", "SPELL"], "kind": "fingerspell"}
+  ]
+}
